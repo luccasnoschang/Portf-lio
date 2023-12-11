@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid red;
+} */
+
 html {
     width: 100%;
     height: 100%;
@@ -10,37 +14,243 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a{
-    color:#25262a;
+a {
+    color: #25262a;
 }
 
-#container{
+#container {
     width: 100%;
     height: 100%;
     background-color: #25262a;
 }
 
-#cabecalho{
+#cabecalho {
     background-color: #2d2e32;
-    height: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
 }
 
-#nomeCabecalho{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    padding:40px;
-}
-
-#tecnologias{
+#cabecalho-cima {
+    height: 15%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 200px;
 }
 
-#titulo{
-    font-size: 60px;
+#cabecalho-cima-esquerda {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nomeCabecalho {
+    font-size: 30px;
+    width: 300px;
     color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+
+#negrito {
+    font-weight: 600;
+}
+
+#cabecalho-cima-meio {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 40px;
+}
+
+#cabecalho-cima-direita {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 40px;
+}
+
+.selecoes-cabecalho {
+    color: white;
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+}
+
+#gmail {
+    width: 40px;
+    border-radius: 100%;
+}
+
+#cabecalho-meio-esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 40px;
+    margin-left: 60px;
+}
+
+#cabecalho-meio-direita {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-profile {
+    height: 500px;
+    border-radius: 100%;
+    margin: 200px;
+}
+
+#cabecalho-meio {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 50px;
+    color: white;
+    width: 600px;
+}
+
+.paragrafo {
+    color: white;
+    width: 600px;
+}
+
+#meio {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#meio-esquerda {
+    width: 50%;
+    height: 100%;
+    margin-top: 130px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hardSkills {
+    width: 600px;
+    height: 400px;
+}
+
+#meio-direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+#meio-baixo {
+    width: 100%;
+    height: 500px;
+    background-color: #2d2e32;
+}
+
+#cards {
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#card-esquerda {
+    width: 20%;
+    height: 300px;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+#card-meio {
+    width: 20%;
+    height: 300px;
+    background-color: #333435;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+#card-direita {
+    width: 20%;
+    height: 300px;
+    background-color: #333435;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+#titulo-card{
+    font-size:30px;
+    width: 150px;
+    color: white;
+    align-self: center;
+}
+
+#subtitulo-card{
+    margin-left: 110px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.iconsCards{
+    width: 40px;
+    height: 20px;
+    margin-top: 3%;
+}
+
+.positionsCards{
+    display: flex;
+    align-self: center;
+    gap: 20px;
 }
