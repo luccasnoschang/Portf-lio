@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="apresantacao.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projetos.css">
+    <link rel="stylesheet" href="rodape.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Luccas Noschang</title>
 </head>
 
@@ -26,7 +31,7 @@
 
                 <div id="cabecalho-cima-meio">
                     <a href="">
-                        <p class="selecoes-cabecalho">Skills and Tools</p>
+                        <p class="selecoes-cabecalho">Tecnologias e ferramentas</p>
                     </a>
 
                     <a href="">
@@ -82,7 +87,7 @@
         <div id="meio">
 
             <div id="meio-esquerda">
-                <p style="align-self: start; margin-left: 85px; color: rgb(132, 132, 132);">- Sobre mim</p>
+                <p style="width: 600px; color: rgb(132, 132, 132);">- Sobre mim</p>
                 <p class="titulo">Hard Skills</p>
                 <p class="paragrafo">Essas são algumas das minhas habilidades e conhecimentos na área, coisas que eu
                     domino, e coisas que eu ja passei e aprendi Essas são algumas das minhas habilidades e conhecimentos
@@ -94,7 +99,7 @@
                     domino, e coisas que eu ja passei e aprendi Essas são algumas das minhas habilidades e conhecimentos
                     na área, coisas que eu
                     domino, e coisas que eu ja passei e aprendi </p>
-                    <a style="align-self: flex-start; margin-left: 85px; color: aqua;" href="https://github.com/luccasnoschang">Visite meu Github -></a>
+                <a style="width: 600px; color: aqua;" href="https://github.com/luccasnoschang">Visite meu Github -></a>
             </div>
 
             <div id="meio-direita">
@@ -104,57 +109,248 @@
 
         </div>
 
-        <div id="cards">
-
-            <div id="card-esquerda">
-                
-                <div class="positionsCards">
-                    <img class="iconsCards" src="assets/htmlIcon.png">
-                    
-                    <p id="titulo-card">Pre Sales Ops</p>
-                </div>
-
-                <p id="subtitulo-card">Exact sales</p>
-
-            </div>
-
-            <div id="card-meio">
-
-                <div class="positionsCards">
-                    <img class="iconsCards" src="assets/htmlIcon.png">
-                    
-                    <p id="titulo-card">Software Developer</p>
-                </div>
-
-                <p id="subtitulo-card">Front-end</p>
-            </div>
-
-            <div id="card-direita">
-
-                <div class="positionsCards">
-                    <img class="iconsCards" src="assets/htmlIcon.png">
-                    
-                    <p id="titulo-card">Data Analyst</p>
-                </div>
-
-                <p id="subtitulo-card">SQL</p>
-            </div>
-
-        </div>
-
         <div id="meio-baixo">
 
+            <p id="titulo-projetos">Projetos</p>
+
+            <div id="meio-baixo-cima">
+
+                <div id="descricao1">
+                    <p class="titulo-projeto">Eco Recycle</p>
+                    <p class="subtitulo-projetos"> Um App mobile utilizado para condomínios e empresas </p>
+
+                    <button class="botao-projetos">
+                        <a class="link-projetos" href="https://github.com/luccasnoschang/EcoRecycle">Ir para
+                            repositório</a>
+                    </button>
+
+                    <div style="width: 100%; display: flex; gap: 10px;">
+                        <img style="width: 35px;"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+
+                        <img style="width: 35px;"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                            alt="">
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                            alt="">
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div id="slider1">
+                    <div class="slides">
+
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                        <div class="slide first">
+                            <img src="assets/EcoRecycle1.png" alt="Imagem 1">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/EcoRecycle2.png" alt="Imagem 2">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/video1.mp4" alt="Imagem 3">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/video2.mp4" alt="Imagem 4">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+
+                </div>
+
+            </div>
 
 
+            <!-- --- -->
+
+
+            <div id="meio-baixo-meio">
+
+
+
+                <div id="slider2">
+                    <div class="slides2">
+
+                        <input type="radio" name="radio-btn2" id="radio1²">
+                        <input type="radio" name="radio-btn2" id="radio2²">
+                        <input type="radio" name="radio-btn2" id="radio3²">
+                        <input type="radio" name="radio-btn2" id="radio4²">
+
+                        <div class="slide2 first2">
+                            <img src="assets/EcoCond1.png" alt="Imagem 1">
+                        </div>
+                        <div class="slide2">
+                            <img src="assets/EcoCond2.png" alt="Imagem 2">
+                        </div>
+                        <div class="slide2">
+                            <img src="assets/EcoCond3.png" alt="Imagem 3">
+                        </div>
+                        <div class="slide2">
+                            <img src="assets/EcoCond4.png" alt="Imagem 4">
+                        </div>
+
+                        <div class="navigation-auto2">
+                            <div class="auto-btn1²"></div>
+                            <div class="auto-btn2²"></div>
+                            <div class="auto-btn3²"></div>
+                            <div class="auto-btn4²"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="manual-navigation2">
+                        <label for="radio1²" class="manual-btn2"></label>
+                        <label for="radio2²" class="manual-btn2"></label>
+                        <label for="radio3²" class="manual-btn2"></label>
+                        <label for="radio4²" class="manual-btn2"></label>
+                    </div>
+                </div>
+
+                <div id="descricao2">
+                    <p class="titulo-projeto">EcoCond</p>
+                    <p class="subtitulo-projetos"> Um site MVP de uma empresa voltada para reciclagem em condomínios!
+                    </p>
+                    <a style="color: #20a6ff; font-size: 18px; text-decoration: none;"
+                        href="https://luccasnoschang.github.io/EcoCond/index.html">Confira o site!</a>
+                    <button class="botao-projetos"><a class="link-projetos"
+                            href="https://github.com/luccasnoschang/EcoCond">Ir para repositório</a></button>
+                    <div style="width: 100%; display: flex; gap: 10px;">
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                            alt="">
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                            alt="">
+                        <img style="width: 30px;"
+                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                            alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- --- -->
+
+            <!-- 
+            <div id="meio-baixo-baixo">
+
+                <div id="descricao3">
+                    <p class="titulo-projeto">Eco Recycle</p>
+                    <p class="subtitulo-projetos"> a </p>
+                    <button class="botao-projetos"><a class="link-projetos" href="">Ir para repositório</a></button>
+                </div>
+
+                <div id="slider3">
+                    <div class="slides3">
+
+                        <input type="radio" name="radio-btn3" id="radio1³">
+                        <input type="radio" name="radio-btn3" id="radio2³">
+                        <input type="radio" name="radio-btn3" id="radio3³">
+                        <input type="radio" name="radio-btn3" id="radio4³">
+
+                        <div class="slide3 first3">
+                            <img src="assets/foto1.jpg" alt="Imagem 1">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/foto2.jpg" alt="Imagem 2">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/foto3.jpg" alt="Imagem 3">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/foto3.jpg" alt="Imagem 4">
+                        </div>
+
+                        <div class="navigation-auto3">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="manual-navigation3">
+                        <label for="radio1³" class="manual-btn"></label>
+                        <label for="radio2³" class="manual-btn"></label>
+                        <label for="radio3³" class="manual-btn"></label>
+                        <label for="radio4³" class="manual-btn"></label>
+                    </div>
+                </div>
+
+            </div> -->
 
         </div>
-
 
 
         <footer>
 
+            <div id="baixo">
+
+                <div id="titulo-rodape">
+                    <p style="color: #fff; font-size: 30px; font-weight: bold;">Entre em contato comigo!</p>
+                </div>
+
+
+
+                <div id="redes-sociais">
+                    <a class="icons" href="">
+                        <img class="icon" src="assets/github.png">
+                    </a>
+
+                    <a class="icons" href="">
+                        <img class="icon" src="assets/linkedin.png">
+
+                    </a>
+
+                    <a href="">
+
+                    </a>
+                </div>
+
+                <hr style=" width: 90%; border-color:#5a5a5a; ">
+
+                <div style="display: flex; gap: 400px;">
+                    <a href="/index.html" aria-label="home">
+                        <p id="nome-rodape"><b id="negrito">Luccas</b> Noschang</p>
+                    </a>
+                    <div style="display: flex; gap: 50px;">
+                        <p style="color: #fff;">lnoschang@exactsales.com.br</p>
+                        <p style="color: #fff;">(48) 99850-4246</p>
+                    </div>
+                </div>
+            </div>
+
         </footer>
 
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="//cdn.wordart.com/wordart.min.js" async defer></script>
     </div>
 </body>
