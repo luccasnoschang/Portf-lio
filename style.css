@@ -26,3 +26,48 @@ a {
 	background-color: #25262a;
 }
 
+@media(max-width: 1200px) {
+	#meio-esquerda{
+
+	}
+
+	#meio{
+		width: 900px;
+	}
+
+	.container_imagem{
+		width: 50vw;
+	}
+
+	img{
+		width: 50vw;
+	}
+}
+
+@media(max-width: 768px) {
+	#container{
+		width: 100%;
+	}
+
+	.container_imagem{
+		width: 50vw;
+	}
+
+	img{
+		width: 50vw;
+	}
+}
+
+@media(max-width: 400px) {
+	#container{
+		width: 100%;
+	}
+
+	.container_imagem{
+		width: 50vw;
+	}
+
+	img{
+		width: 50vw;
+	}
+}
