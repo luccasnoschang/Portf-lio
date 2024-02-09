@@ -1,0 +1,48 @@
+
+#cabecalho-meio-esquerda {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	gap: 40px;
+	margin-left: 60px;
+}
+
+#cabecalho-meio-direita {
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#img-profile {
+	height: 100%;
+	width: 65%;
+	border-radius: 100%;
+	margin: 200px;
+}
+
+#cabecalho-meio {
+	width: 100%;
+	height: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.titulo-apresentacao {
+	font-size: 52px;
+	color: white;
+	width: 700px;
+}
+
+.paragrafo-apresentacao {
+	color: white;
+	width: 700px;
+	font-size: 22px;
+}

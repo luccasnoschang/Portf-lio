@@ -1,0 +1,44 @@
+
+#meio {
+	height: 550px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#meio-esquerda {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#hardSkills {
+	width: 600px;
+	height: 400px;
+}
+
+#meio-direita {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.titulo-skills {
+	font-size: 52px;
+	color: white;
+	width: 700px;
+}
+
+.paragrafo-skills {
+	color: white;
+	width: 700px;
+	font-size: 22px;
+}

@@ -1,0 +1,80 @@
+#cabecalho {
+	background-color: #2d2e32;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+
+#cabecalho-cima {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#cabecalho-cima-esquerda {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#nomeCabecalho {
+	font-size: 30px;
+	width: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+#negrito {
+	font-weight: 600;
+}
+
+#cabecalho-cima-meio {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* justify-content: space-around; */
+	gap: 40px;
+}
+
+#cabecalho-cima-direita {
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* justify-content: space-around; */
+	gap: 40px;
+}
+
+.selecoes-cabecalho {
+	color: white;
+	font-size: 15px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.icon {
+	width: 20px;
+}
+
+#gmail {
+	width: 40px;
+	border-radius: 100%;
+}
